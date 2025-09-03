@@ -17,7 +17,7 @@ jobs:
         run: npm run test
       - name: Upload Artifacts
         ## Action to upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           ## name of the artifact and the paths for the files of the artifact, in other words what files are part of the artifact
           name: dist-files
